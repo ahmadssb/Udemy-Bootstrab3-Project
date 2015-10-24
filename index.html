@@ -14,6 +14,10 @@
 	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
 	<link href="includes/css/bootstrap-glyphicons.css" rel="stylesheet">
 
+	<!-- Font Awesome Library -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+
 	<!-- Custom CSS -->
 	<link href="includes/css/styles.css" rel="stylesheet">
 
@@ -92,7 +96,6 @@
 					</ul>
 					<!-- ./nav pull-right -->
 
-
 				</div>
 				<!-- ./nav-collapse -->
 
@@ -102,6 +105,47 @@
 		<!-- ./navbar -->
 
 		<div class="carousel slide" id="myCarousel">
+			<!-- Inicators -->
+			<ol class="carousel-indicators">
+				<li class="active" data-slide-to="0" data-target="#myCarousel"></li>
+				<li data-slide-to="1" data-target="#myCarousel"></li>
+				<li data-slide-to="2" data-target="#myCarousel"></li>
+			</ol>
+			<!-- ./carousel-indicators -->
+
+			<!-- Wrapper for slides -->
+			<div class="carousel-inner">
+				<div class="item active" id="slide1">
+					<div class="carousel-caption">
+						<h4>Bootstrap 3 is Awesome</h4>
+						<p>Coding with Bootstrap savs you a lot of time <strong class="fa fa-smile-o"></strong></p>
+					</div>
+					<!-- ./carousel-caption -->
+				</div>
+				<!-- ./slide1 -->
+				<div class="item" id="slide2">
+					<div class="carousel-caption">
+						<h4>Bootstrap 3 Glyphicons ARE Awesome</h4>
+						<p>Using Bootstrap Glyphicons <strong class="fa thumbs-up"></strong></p>
+					</div>
+					<!-- ./carousel-caption -->
+				</div>
+				<!-- ./slide2 -->
+				<div class="item" id="slide3">
+					<div class="carousel-caption">
+						<h4>bla bla bla</h4>
+						<p>bla bla bal bla bla bal bla <strong class="fa fa-bullhorn"></strong></p>
+					</div>
+					<!-- ./carousel-caption -->
+				</div>
+				<!-- ./slide3 -->
+
+			</div>
+			<!-- ./carousel-inner -->
+			
+			<!-- Controls -->
+			<a href="#myCarousel" class="left carousel-control" data-slide="prev"><span class="icon-prev"></span></a>
+			<a href="#myCarousel" class="right carousel-control" data-slide="next"><span class="icon-next"></span></a>
 
 		</div>
 		<!--	./carousel -->
