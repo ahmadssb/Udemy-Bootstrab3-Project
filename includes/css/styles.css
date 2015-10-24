@@ -27,7 +27,6 @@ Website: http://www.ahmadssb.com
 #searchInput {
 	width: 200px;
 }
-
 .navbar-brand {
 	padding: 13px 15px
 }
@@ -36,6 +35,27 @@ Website: http://www.ahmadssb.com
    Carousel
    -------------------------------------- */
 
+#myCarousel {
+	margin-top: 60px
+}
+#myCarousel .item {
+	height: 400px;
+}
+.carousel-caption {
+	font-size: 24px;
+}
+.carousel-caption h4 {
+	font-size: 32px;
+}
+#slide1 {
+	background: url(../../images/carousel_medium_01.jpg) center no-repeat;
+}
+#slide2 {
+	background: url(../../images/carousel_medium_02.jpg) center no-repeat;
+}
+#slide3 {
+	background: url(../../images/carousel_medium_03.jpg) center no-repeat;
+}
 
 /* --------------------------------------
    Global Styles
@@ -49,12 +69,55 @@ Website: http://www.ahmadssb.com
 
 /* Portrait & landscape phone */
 
-@media (max-width: 480px) {}
+@media (max-width: 480px) {
+	#slide1 {
+		background: url(../../images/carousel_small_01.jpg) center no-repeat;
+	}
+	#slide2 {
+		background: url(../../images/carousel_small_02.jpg) center no-repeat;
+	}
+	#slide3 {
+		background: url(../../images/carousel_small_03.jpg) center no-repeat;
+	}
+	.carousel-caption h4 {
+		font-size: 24px;
+	}
+	.carousel-caption p {
+		display: none;
+	}
+	
+}
 
 /* Landscape phone to portrait tablet */
 
-@media (max-width: 768px) {}
+@media (max-width: 991px) {
+	#slide1 {
+		background: url(../../images/carousel_medium_01.jpg) center no-repeat;
+	}
+	#slide2 {
+		background: url(../../images/carousel_medium_02.jpg) center no-repeat;
+	}
+	#slide3 {
+		background: url(../../images/carousel_medium_03.jpg) center no-repeat;
+	}
+	.carousel-caption {
+		font-size: 20px;
+	}
+	.carousel-caption h4 {
+		font-size: 24px;
+	}
+}
 
 /* Large desktop */
 
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+	#slide1 {
+		background: url(../../images/carousel_large_01.jpg) center no-repeat;
+	}
+	#slide2 {
+		background: url(../../images/carousel_large_02.jpg) center no-repeat;
+	}
+	#slide3 {
+		background: url(../../images/carousel_large_03.jpg) center no-repeat;
+	}
+}
