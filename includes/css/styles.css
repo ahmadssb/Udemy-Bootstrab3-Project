@@ -15,26 +15,26 @@ Website: http://www.ahmadssb.com
    -------------------------------------- */
 
 
-
 /* --------------------------------------
    Typography
    -------------------------------------- */
 
 
-
 /* --------------------------------------
    Navbar
    -------------------------------------- */
-   #searchInput {
+
+#searchInput {
 	width: 200px;
-	margin-top: 3px;
 }
-   
-   
+
+.navbar-brand {
+	padding: 13px 15px
+}
+
 /* --------------------------------------
    Carousel
    -------------------------------------- */
-
 
 
 /* --------------------------------------
@@ -42,22 +42,19 @@ Website: http://www.ahmadssb.com
    -------------------------------------- */
 
 
-
 /* --------------------------------------
    Media Queries
    -------------------------------------- */
 
+
 /* Portrait & landscape phone */
-@media (max-width: 480px) {
-	
-}
+
+@media (max-width: 480px) {}
 
 /* Landscape phone to portrait tablet */
-@media (max-width: 768px) {
-	
-}
+
+@media (max-width: 768px) {}
 
 /* Large desktop */
-@media (min-width: 1200px) {
-	
-}
+
+@media (min-width: 1200px) {}
